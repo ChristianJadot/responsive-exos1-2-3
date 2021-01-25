@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* "box-sizing" garanti que padding et border font partie intégrante de la largeur et hauteur des éléments
+* {
+    box-sizing: border-box;
+  }*/
+
+/*EXOS BECODE 1-2-3*/
+/* Adapte la couleur de l'écran selon la taille de celui-ci */
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background-color: red;
+  }
+  #small {
+    font-size: 1em;
+    color: white;
+  }
+  #small h1 {font-weight: 800;}
+  #small h2 {font-weight: 600; text-decoration: underline;}
+  #small p {font-weight: 300;}
+  #medium {display: none;}
+  #large {display: none;}
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: green;
+  }
+  #medium {
+    font-size: 1em;
+    color: white;
+  }
+  #medium h1 {font-weight: 800;}
+  #medium h2 {font-weight: 600; text-decoration: underline;}
+  #medium p {font-weight: 300;}
+  #small {display: none;}
+  #large {display: none;}
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: blue;
+  }
+  #large {
+    font-size: 1em;
+    color: white;
+  }
+  #large h1 {font-weight: 800;}
+  #large h2 {font-weight: 600; text-decoration: underline;}
+  #large p {font-weight: 300;}
+  #small {display: none;}
+  #medium {display: none;}
+}
+/*FIN EXOS BECODE 1-2-3*/
+
+
+/* For desktop:
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  / For mobile phones: /
+  [class*="col-"] {
+    width: 100%;
+  }
+}*/
